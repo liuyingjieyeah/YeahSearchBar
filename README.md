@@ -1,7 +1,7 @@
 # YeahSearchBar
 UISearchBar+History+TableView
 
-![YeahSearchBarExample.jpg](https://upload-images.jianshu.io/upload_images/1858764-7e8acff43c0602e4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![YeahSearchBarExample.png](https://upload-images.jianshu.io/upload_images/1858764-2e85767c76fe3b80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 一、SearchBar
 ```
