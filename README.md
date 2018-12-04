@@ -1,9 +1,11 @@
 # YeahSearchBar
 UISearchBar+History+TableView
 
+![UISearchBar@2x.png](https://upload-images.jianshu.io/upload_images/1858764-e141827270420728.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+---
 
-####一、SearchBar
+### 一、SearchBar
 ```
 //创建searchBar
     _searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 260 , 25 )];
@@ -45,7 +47,7 @@ UITableView继承UIScrollView，所以可以使用其代理取消键盘响应
 ```
 
 ---
-####二、搜索历史记录存储UserDefaults
+### 二、搜索历史记录存储UserDefaults
 ![SearchHistoryTool.png](https://upload-images.jianshu.io/upload_images/1858764-bb6111523f1dceac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
@@ -55,7 +57,7 @@ typedef NS_ENUM(NSInteger,HistorySearchType) {
 };
 @property (strong,nonatomic) NSMutableArray *historySearchArr;
 ```
-####读（按照时间顺序）
+### 读（按照时间顺序）
 ```
 //Read
 - (NSArray *)readNSUserDefaultsWithType:(HistorySearchType)type{
@@ -71,7 +73,7 @@ typedef NS_ENUM(NSInteger,HistorySearchType) {
     return reversedArray;
 }
 ```
-####写（最多存储20条）
+### 写（最多存储20条）
 ```
 //Search-Save
 - (void)saveSearchInfoWithMessage:(NSString *)message type:(HistorySearchType)type{
@@ -106,7 +108,7 @@ typedef NS_ENUM(NSInteger,HistorySearchType) {
     [userDefaults synchronize];
 }
 ```
-####删
+### 删
 ```
 - (void)cleanHistoryMethodType:(HistorySearchType)type{
     if (!self.historySearchArr) {
