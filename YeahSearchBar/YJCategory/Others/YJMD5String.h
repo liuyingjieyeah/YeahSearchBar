@@ -1,6 +1,6 @@
 //
 //  YJMD5String.h
-//  小移云店
+//  YeahSearchBar
 //
 //  Created by 微品致远 on 2018/9/13.
 //  Copyright © 2018年 liuyingjieyeah. All rights reserved.

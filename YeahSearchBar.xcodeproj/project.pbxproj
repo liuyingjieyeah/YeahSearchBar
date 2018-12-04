@@ -303,7 +303,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = liuyingjieeyah;
+				ORGANIZATIONNAME = liuyingjieyeah;
 				TargetAttributes = {
 					5E6A6ACE21AE95350098DA08 = {
 						CreatedOnToolsVersion = 10.1;
